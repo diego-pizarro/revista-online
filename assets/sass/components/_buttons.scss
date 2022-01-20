@@ -1,0 +1,15 @@
+.newsletter__group {
+    &--input, &--button {
+        display: inline-block;
+        border-width: 1px;
+        font-size: 0.813rem;
+        padding: 0.313rem 0.625rem;
+    }
+
+    &--button {
+        background-color: rgb(80, 255, 80);
+        color: rgb(62, 230, 20);
+    }
+    
+
+}

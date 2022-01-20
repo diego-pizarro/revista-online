@@ -1,0 +1,29 @@
+.newsletter {
+    width: 100%;
+    background-color: #4cb9f0;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem 0;
+
+    &__titulo {
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding: 1rem 0;
+
+        @include respond-to('lg') {
+            font-size: 1.5rem;
+            padding: 1rem 0;
+        }
+    }
+
+    &__parrafo {
+        padding: 2rem 0;
+        font-weight: bold;
+        font-size: 1rem;
+
+        @include respond-to('lg') {
+            font-size: 1rem;
+            padding: 1rem 0;
+        }
+    }
+}
